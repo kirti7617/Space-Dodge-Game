@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:black;
+    color:white;
+    text-align:center;
+    overflow:hidden;
+}
+
+h1{
+    margin:15px;
+}
+
+#game{
+    width:400px;
+    height:600px;
+    background:#111;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+    border:4px solid white;
+}
+
+#player{
+    position:absolute;
+    bottom:20px;
+    left:180px;
+    font-size:40px;
+}
+
+.enemy{
+    position:absolute;
+    top:-40px;
+    font-size:35px;
+}
+#score{
+    margin-top:20px;
+    font-size:25px;
+}
